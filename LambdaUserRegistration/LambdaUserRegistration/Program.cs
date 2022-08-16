@@ -29,10 +29,11 @@ using LambdaUserRegistration;
         Console.Write("Email:     ");
         string email = Console.ReadLine();
         Console.Write("Mobile Number:     ");
+        string mobile = Console.ReadLine();
         Console.Write("Password:     ");
         string password = Console.ReadLine();
 
-        string mobile = Console.ReadLine();
+        
         Console.Write("\n=====Result======\n");
         bool checkFirstName = user.ValidateFirstName(firstName);
         bool checkLastName = user.ValidateLastName(lastName);
